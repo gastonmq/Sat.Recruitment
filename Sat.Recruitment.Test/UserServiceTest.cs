@@ -17,7 +17,6 @@ namespace Sat.Recruitment.Test
         private readonly Mock<IFileService> _mockFileService;
         private readonly Mock<IMoneyService> _mockMoneyService;
         private readonly Mock<ILogger<UsersController>> _mockLogger;
-        private readonly UsersController _usersController;
         private readonly UserService _userService;
         private readonly FileService _fileService;
 
